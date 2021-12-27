@@ -707,6 +707,12 @@ a {
   }
 }
 @media (max-width: 600px) {
+  .w3-half-new {
+    padding-bottom: 8px !important;
+  }
+  .w3-half-existing {
+    padding-top: 8px !important;
+  }
   .w3-modal-content {
     margin: 0 10px;
     width: auto !important;
