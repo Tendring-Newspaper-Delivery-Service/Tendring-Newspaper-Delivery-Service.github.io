@@ -7,6 +7,19 @@
   max-width: 250px;
 }
 
+.max-width-center {
+  display: flex;
+  justify-content: center;
+}
+
+.max-width-center-item {
+  max-width: 1920px !important;
+}
+
+.modal-card-max-width {
+  max-width: 916px;
+}
+
 .w3-theme-l5 {
   color: #000 !important;
   background-color: #f0f0f0 !important;
