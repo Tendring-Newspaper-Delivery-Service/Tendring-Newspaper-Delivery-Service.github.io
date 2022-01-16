@@ -1,3 +1,26 @@
+.header-container {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: lightyellow;
+}
+
+#header-contacts {
+  width: 305px;
+  text-align: right;
+}
+
+@media (max-width: 1204px) {
+  .header-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  #header-contacts {
+    text-align: center !important;
+  }
+}
+
 .check-list {
   list-style-type: none;
 }
@@ -13,7 +36,7 @@
 }
 
 .max-width-center-item {
-  max-width: 1920px !important;
+  max-width: 940px !important;
 }
 
 .modal-card-max-width {
